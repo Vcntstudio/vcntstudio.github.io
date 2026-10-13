@@ -1,0 +1,16 @@
+rules_version = '2';
+// Regole Firestore per il sito VCNT Studio.
+// Chiunque può INVIARE un messaggio dal modulo, nessuno può leggerli dal sito.
+// I messaggi si leggono dalla console Firebase (Firestore → raccolta "messaggi").
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /messaggi/{id} {
+      allow read, update, delete: if false;
+      allow create: if request.resource.data.keys().hasOnly(['name', 'email', 'department', 'message', 'createdAt', 'read'])
+        && request.resource.data.name is string && request.resource.data.name.size() > 0 && request.resource.data.name.size() <= 120
+        && request.resource.data.email is string && request.resource.data.email.size() <= 200
+        && request.resource.data.message is string && request.resource.data.message.size() > 0 && request.resource.data.message.size() <= 5000
+        && request.resource.data.createdAt == request.time;
+    }
+  }
+}
