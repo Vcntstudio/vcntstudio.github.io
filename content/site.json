@@ -2,7 +2,7 @@
   "site": {
     "brand": "VCNT Studio",
     "name": "Vincenzo Russo",
-    "email": "info@vcntstudio.com",
+    "email": "info.vcntstudio@gmail.com",
     "instagram": "",
     "youtube": "",
     "spotify": "",
@@ -33,8 +33,14 @@
             "scoring": "For ensemble, fixed electronics and live processing / computer music",
             "description": "",
             "details": [
-              { "label": "Selection", "text": "International Computer Music Conference (ICMC 2026), Hamburg (Germany)." },
-              { "label": "Performance", "text": "Premiered by Ensemble 404 at the Friedrich Ebert Halle, Hamburg (11/05/2026)." }
+              {
+                "label": "Selection",
+                "text": "International Computer Music Conference (ICMC 2026), Hamburg (Germany)."
+              },
+              {
+                "label": "Performance",
+                "text": "Premiered by Ensemble 404 at the Friedrich Ebert Halle, Hamburg (11/05/2026)."
+              }
             ],
             "performances": [],
             "image": "images/partitura-neuro.jpg",
@@ -54,8 +60,16 @@
             "description": "Orchestration and new score for scenes from the silent film 'A Santanotte' (1922) by Elvira Notari, based on the song by Ernesto De Curtis.",
             "details": [],
             "performances": [
-              { "venue": "Estonian Academy of Music and Theatre", "place": "Tallinn (Estonia)", "date": "08/02/2026" },
-              { "venue": "Academia de Muzică \"Gheorghe Dima\"", "place": "Cluj-Napoca (Romania)", "date": "03/03/2026" }
+              {
+                "venue": "Estonian Academy of Music and Theatre",
+                "place": "Tallinn (Estonia)",
+                "date": "08/02/2026"
+              },
+              {
+                "venue": "Academia de Muzică \"Gheorghe Dima\"",
+                "place": "Cluj-Napoca (Romania)",
+                "date": "03/03/2026"
+              }
             ],
             "image": "",
             "youtube": "",
@@ -68,11 +82,22 @@
             "scoring": "Original motion picture soundtrack for the short film in collaboration with RAI (Naples)",
             "description": "",
             "details": [
-              { "label": "Release", "text": "Published by FDAM label (24/06/2024)." }
+              {
+                "label": "Release",
+                "text": "Published by FDAM label (24/06/2024)."
+              }
             ],
             "performances": [
-              { "venue": "Foyer of the RAI headquarters", "place": "Naples (Italy)", "date": "26/06/2024" },
-              { "venue": "\"Metropolitan\" Cinema", "place": "Naples (Italy)", "date": "29/11/2024" }
+              {
+                "venue": "Foyer of the RAI headquarters",
+                "place": "Naples (Italy)",
+                "date": "26/06/2024"
+              },
+              {
+                "venue": "\"Metropolitan\" Cinema",
+                "place": "Naples (Italy)",
+                "date": "29/11/2024"
+              }
             ],
             "image": "images/partitura-sete.jpg",
             "youtube": "",
@@ -90,12 +115,27 @@
             "scoring": "For orchestra",
             "description": "",
             "details": [
-              { "label": "Award", "text": "Winner of the Performing project \"La Ballata del mare\"." }
+              {
+                "label": "Award",
+                "text": "Winner of the Performing project \"La Ballata del mare\"."
+              }
             ],
             "performances": [
-              { "venue": "\"Sala Scarlatti\", Conservatory of Naples \"San Pietro a Majella\"", "place": "Naples (Italy)", "date": "12/12/2025" },
-              { "venue": "Conservatorio de Música de Alicante", "place": "Alicante (Spain)", "date": "23/02/2026" },
-              { "venue": "Polo Fieristico \"Giovanni Colosimo\"", "place": "Catanzaro (Italy)", "date": "14/03/2026" }
+              {
+                "venue": "\"Sala Scarlatti\", Conservatory of Naples \"San Pietro a Majella\"",
+                "place": "Naples (Italy)",
+                "date": "12/12/2025"
+              },
+              {
+                "venue": "Conservatorio de Música de Alicante",
+                "place": "Alicante (Spain)",
+                "date": "23/02/2026"
+              },
+              {
+                "venue": "Polo Fieristico \"Giovanni Colosimo\"",
+                "place": "Catanzaro (Italy)",
+                "date": "14/03/2026"
+              }
             ],
             "image": "",
             "youtube": "",
@@ -109,7 +149,11 @@
             "description": "",
             "details": [],
             "performances": [
-              { "venue": "Ensemble \"Dissonanzen\" — \"Sala Scarlatti\", Conservatory of Naples", "place": "Naples (Italy)", "date": "16/10/2024" }
+              {
+                "venue": "Ensemble \"Dissonanzen\" — \"Sala Scarlatti\", Conservatory of Naples",
+                "place": "Naples (Italy)",
+                "date": "16/10/2024"
+              }
             ],
             "image": "",
             "youtube": "",
@@ -137,41 +181,112 @@
   "studio": {
     "intro": "Professional mixing, mastering and production services for electronic, contemporary and independent music.",
     "services": [
-      { "title": "Mixing", "text": "Balance, depth and punch for club tracks, songs and hybrid electronic pieces." },
-      { "title": "Mastering", "text": "Loud, clean and translation-ready masters for streaming, club and radio." },
-      { "title": "Production", "text": "Ghost production and advanced arrangement starting from your idea or a reference track." }
+      {
+        "title": "Mixing",
+        "text": "Balance, depth and punch for club tracks, songs and hybrid electronic pieces."
+      },
+      {
+        "title": "Mastering",
+        "text": "Loud, clean and translation-ready masters for streaming, club and radio."
+      },
+      {
+        "title": "Production",
+        "text": "Ghost production and advanced arrangement starting from your idea or a reference track."
+      }
     ],
     "releases_title": "Major Releases & Collaborations",
     "releases": [
-      { "title": "Aku Aku", "artist": "Benny Benassi, Axis Zero", "role": "", "cover": "images/release-1.jpg", "link": "https://open.spotify.com/" },
-      { "title": "Spotlight EP Vol. 1", "artist": "Leftover Records", "role": "", "cover": "images/release-2.jpg", "link": "https://open.spotify.com/" },
-      { "title": "La Musik", "artist": "Mathieu Ruiz, Javi Torres, Notwins", "role": "", "cover": "images/release-3.jpg", "link": "https://open.spotify.com/" },
-      { "title": "I Have a Dream (Ecuador)", "artist": "Masterm x Alexandra Stan", "role": "", "cover": "images/release-4.jpg", "link": "https://open.spotify.com/" },
-      { "title": "Morenita", "artist": "Overmuzik feat. Flo Rida", "role": "", "cover": "images/release-5.jpg", "link": "https://open.spotify.com/" },
-      { "title": "Sin Prisa", "artist": "Overmuzik feat. Pitbull & Trina", "role": "", "cover": "images/release-6.jpg", "link": "https://open.spotify.com/" }
+      {
+        "title": "Aku Aku",
+        "artist": "Benny Benassi, Axis Zero",
+        "role": "",
+        "cover": "images/release-1.jpg",
+        "link": "https://open.spotify.com/"
+      },
+      {
+        "title": "Spotlight EP Vol. 1",
+        "artist": "Leftover Records",
+        "role": "",
+        "cover": "images/release-2.jpg",
+        "link": "https://open.spotify.com/"
+      },
+      {
+        "title": "La Musik",
+        "artist": "Mathieu Ruiz, Javi Torres, Notwins",
+        "role": "",
+        "cover": "images/release-3.jpg",
+        "link": "https://open.spotify.com/"
+      },
+      {
+        "title": "I Have a Dream (Ecuador)",
+        "artist": "Masterm x Alexandra Stan",
+        "role": "",
+        "cover": "images/release-4.jpg",
+        "link": "https://open.spotify.com/"
+      },
+      {
+        "title": "Morenita",
+        "artist": "Overmuzik feat. Flo Rida",
+        "role": "",
+        "cover": "images/release-5.jpg",
+        "link": "https://open.spotify.com/"
+      },
+      {
+        "title": "Sin Prisa",
+        "artist": "Overmuzik feat. Pitbull & Trina",
+        "role": "",
+        "cover": "images/release-6.jpg",
+        "link": "https://open.spotify.com/"
+      }
     ],
     "gallery": [
-      "images/studio-1.jpg", "images/studio-2.jpg", "images/studio-3.jpg",
-      "images/studio-4.jpg", "images/studio-5.jpg", "images/studio-6.jpg",
-      "images/studio-7.jpg", "images/studio-8.jpg", "images/studio-9.jpg"
+      "images/studio-01.jpg",
+      "images/studio-02.jpg",
+      "images/studio-03.jpg",
+      "images/studio-04.jpg",
+      "images/studio-05.jpg",
+      "images/studio-06.jpg",
+      "images/studio-07.jpg",
+      "images/studio-08.jpg",
+      "images/studio-09.jpg",
+      "images/studio-10.jpg",
+      "images/studio-11.jpg",
+      "images/studio-12.jpg",
+      "images/studio-13.jpg",
+      "images/studio-14.jpg",
+      "images/studio-15.jpg"
     ],
     "specs": [
-      { "label": "Format", "value": "WAV" },
-      { "label": "Bit depth", "value": "24-bit" },
-      { "label": "Sample rate", "value": "44.1 kHz" },
-      { "label": "Headroom", "value": "−6 dB" }
+      {
+        "label": "Format",
+        "value": "WAV"
+      },
+      {
+        "label": "Bit depth",
+        "value": "24-bit"
+      },
+      {
+        "label": "Sample rate",
+        "value": "44.1 kHz"
+      },
+      {
+        "label": "Headroom",
+        "value": "−6 dB"
+      }
     ],
     "faq": [
       {
         "question": "How can I start my project?",
         "answers": [
           "**Ghost Production:** share your idea with us through a reference track. After a few days we will contact you with feedback on a hybrid track.",
-          "**Upload stems:** send your stems to info@vcntstudio.com using SwissTransfer, Dropbox or any cloud service. Please deliver your files in WAV format (24-bit, 44.1 kHz), leaving at least −6 dB of headroom."
+          "**Upload stems:** send your stems to info.vcntstudio@gmail.com using SwissTransfer, Dropbox or any cloud service. Please deliver your files in WAV format (24-bit, 44.1 kHz), leaving at least −6 dB of headroom."
         ]
       },
       {
         "question": "Is the Radio Edit included?",
-        "answers": [ "Yes, the Radio Edit is delivered in both MP3 and WAV." ]
+        "answers": [
+          "Yes, the Radio Edit is delivered in both MP3 and WAV."
+        ]
       },
       {
         "question": "What's the payment policy?",
@@ -185,6 +300,9 @@
   "contact": {
     "title": "Get in Touch",
     "text": "Choose who your message is for, so it reaches the right place.",
-    "departments": [ "Vincenzo Russo", "VCNT Studio" ]
+    "departments": [
+      "Vincenzo Russo",
+      "VCNT Studio"
+    ]
   }
 }
