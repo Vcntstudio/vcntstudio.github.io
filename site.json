@@ -1,0 +1,190 @@
+{
+  "site": {
+    "brand": "VCNT Studio",
+    "name": "Vincenzo Russo",
+    "email": "info.vcntstudio@gmail.com",
+    "instagram": "",
+    "youtube": "",
+    "spotify": "",
+    "footer": "Composer · Researcher · Audio Artist — Naples, Italy"
+  },
+  "home": {
+    "eyebrow": "Composer & Studio",
+    "headline": "Music written, recorded and *finished* in one place.",
+    "composer_title": "Vincenzo Russo",
+    "composer_text": "Composer working across contemporary and electroacoustic music",
+    "composer_image": "images/enzo-profilo.jpg",
+    "studio_title": "Studio",
+    "studio_text": "Mixing, mastering and advanced production services",
+    "studio_image": "images/studio-hero.jpg"
+  },
+  "artistic": {
+    "roles": "Composer | Researcher | Audio Artist",
+    "portrait": "images/enzo-ritratto.jpg",
+    "bio": "**Vincenzo Russo** (b. 1995) is an Italian composer and sound artist. He graduated with highest honors (*110 con lode*) in both Applied Music (BBM) and Composition (MM) from the historic \"San Pietro a Majella\" Conservatory in Naples. Alongside his rigorous musical training, he holds a Bachelor's degree in Business Administration from the \"Parthenope\" University of Naples.\n\nHis creative output encompasses instrumental works for chamber ensembles and orchestra, electroacoustic music, and computer music research. In 2026, his piece *Neuro Translation Engine* was selected for the prestigious **ICMC** (International Computer Music Conference) in Hamburg and performed by Ensemble 404 at the Friedrich Ebert Halle.\n\nRusso's work has been recognized in several competitions: he won the \"Terenzio Gargiulo\" Composition Competition and was awarded 3rd Prize at the \"Fondazione F. M. Napolitano\" International Composition Competition. Deeply interested in multimedia and applied arts, he collaborated with RAI (Italian National Broadcasting) in Naples to score the short film *Sete*, released by the FDAM label. His music is regularly performed across Europe, including venues and academies in Estonia, Romania, Spain, and Germany.",
+    "categories": [
+      {
+        "title": "Mixed Ensembles & Live Electronics",
+        "works": [
+          {
+            "title": "Neuro Translation Engine",
+            "year": "2026",
+            "highlight": "Selected for the International Computer Music Conference (ICMC 2026) — Hamburg, Germany",
+            "scoring": "For ensemble, fixed electronics and live processing / computer music",
+            "description": "",
+            "details": [
+              { "label": "Selection", "text": "International Computer Music Conference (ICMC 2026), Hamburg (Germany)." },
+              { "label": "Performance", "text": "Premiered by Ensemble 404 at the Friedrich Ebert Halle, Hamburg (11/05/2026)." }
+            ],
+            "performances": [],
+            "image": "images/partitura-neuro.jpg",
+            "youtube": "",
+            "video_image": "images/video-neuro.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Multimedia",
+        "works": [
+          {
+            "title": "A' Santanotte",
+            "year": "2026",
+            "highlight": "",
+            "scoring": "",
+            "description": "Orchestration and new score for scenes from the silent film 'A Santanotte' (1922) by Elvira Notari, based on the song by Ernesto De Curtis.",
+            "details": [],
+            "performances": [
+              { "venue": "Estonian Academy of Music and Theatre", "place": "Tallinn (Estonia)", "date": "08/02/2026" },
+              { "venue": "Academia de Muzică \"Gheorghe Dima\"", "place": "Cluj-Napoca (Romania)", "date": "03/03/2026" }
+            ],
+            "image": "",
+            "youtube": "",
+            "video_image": ""
+          },
+          {
+            "title": "Sete",
+            "year": "2024",
+            "highlight": "",
+            "scoring": "Original motion picture soundtrack for the short film in collaboration with RAI (Naples)",
+            "description": "",
+            "details": [
+              { "label": "Release", "text": "Published by FDAM label (24/06/2024)." }
+            ],
+            "performances": [
+              { "venue": "Foyer of the RAI headquarters", "place": "Naples (Italy)", "date": "26/06/2024" },
+              { "venue": "\"Metropolitan\" Cinema", "place": "Naples (Italy)", "date": "29/11/2024" }
+            ],
+            "image": "images/partitura-sete.jpg",
+            "youtube": "",
+            "video_image": ""
+          }
+        ]
+      },
+      {
+        "title": "Orchestral & Chamber Music",
+        "works": [
+          {
+            "title": "Inno a Nettuno",
+            "year": "2025",
+            "highlight": "",
+            "scoring": "For orchestra",
+            "description": "",
+            "details": [
+              { "label": "Award", "text": "Winner of the Performing project \"La Ballata del mare\"." }
+            ],
+            "performances": [
+              { "venue": "\"Sala Scarlatti\", Conservatory of Naples \"San Pietro a Majella\"", "place": "Naples (Italy)", "date": "12/12/2025" },
+              { "venue": "Conservatorio de Música de Alicante", "place": "Alicante (Spain)", "date": "23/02/2026" },
+              { "venue": "Polo Fieristico \"Giovanni Colosimo\"", "place": "Catanzaro (Italy)", "date": "14/03/2026" }
+            ],
+            "image": "",
+            "youtube": "",
+            "video_image": ""
+          },
+          {
+            "title": "Rhapsody of the Universe",
+            "year": "2024",
+            "highlight": "",
+            "scoring": "For chamber ensemble",
+            "description": "",
+            "details": [],
+            "performances": [
+              { "venue": "Ensemble \"Dissonanzen\" — \"Sala Scarlatti\", Conservatory of Naples", "place": "Naples (Italy)", "date": "16/10/2024" }
+            ],
+            "image": "",
+            "youtube": "",
+            "video_image": ""
+          }
+        ]
+      }
+    ],
+    "research_title": "Works in Progress & Current Research",
+    "research": [
+      {
+        "title": "Black Mirror",
+        "status": "2026–2027 · In Development",
+        "subtitle": "For Solo Instrument and Interactive Live Electronics",
+        "text": "A new composition exploring the structural synchronization between real-time audio, dynamic lighting cues, and AI-generated visuals. The piece maps the performer's acoustic gestures directly onto the visual and electronic domains."
+      },
+      {
+        "title": "Research in Live Processing Notation",
+        "status": "Ongoing",
+        "subtitle": "Current Theoretical & Practical Focus",
+        "text": "My current research addresses one of the core challenges in contemporary computer music: the notation and documentation of live processing. The work focuses on developing clear visual paradigms and formal notation systems to effectively integrate real-time digital processing within mixed music scores, bridging the gap between acoustic performance and complex electronic environments."
+      }
+    ]
+  },
+  "studio": {
+    "intro": "Professional mixing, mastering and production services for electronic, contemporary and independent music.",
+    "services": [
+      { "title": "Mixing", "text": "Balance, depth and punch for club tracks, songs and hybrid electronic pieces." },
+      { "title": "Mastering", "text": "Loud, clean and translation-ready masters for streaming, club and radio." },
+      { "title": "Production", "text": "Ghost production and advanced arrangement starting from your idea or a reference track." }
+    ],
+    "releases_title": "Major Releases & Collaborations",
+    "releases": [
+      { "title": "Aku Aku", "artist": "Benny Benassi, Axis Zero", "role": "", "cover": "images/release-1.jpg", "link": "https://open.spotify.com/" },
+      { "title": "Spotlight EP Vol. 1", "artist": "Leftover Records", "role": "", "cover": "images/release-2.jpg", "link": "https://open.spotify.com/" },
+      { "title": "La Musik", "artist": "Mathieu Ruiz, Javi Torres, Notwins", "role": "", "cover": "images/release-3.jpg", "link": "https://open.spotify.com/" },
+      { "title": "I Have a Dream (Ecuador)", "artist": "Masterm x Alexandra Stan", "role": "", "cover": "images/release-4.jpg", "link": "https://open.spotify.com/" },
+      { "title": "Morenita", "artist": "Overmuzik feat. Flo Rida", "role": "", "cover": "images/release-5.jpg", "link": "https://open.spotify.com/" },
+      { "title": "Sin Prisa", "artist": "Overmuzik feat. Pitbull & Trina", "role": "", "cover": "images/release-6.jpg", "link": "https://open.spotify.com/" }
+    ],
+    "gallery": [
+      "images/studio-1.jpg", "images/studio-2.jpg", "images/studio-3.jpg",
+      "images/studio-4.jpg", "images/studio-5.jpg", "images/studio-6.jpg",
+      "images/studio-7.jpg", "images/studio-8.jpg", "images/studio-9.jpg"
+    ],
+    "specs": [
+      { "label": "Format", "value": "WAV" },
+      { "label": "Bit depth", "value": "24-bit" },
+      { "label": "Sample rate", "value": "44.1 kHz" },
+      { "label": "Headroom", "value": "−6 dB" }
+    ],
+    "faq": [
+      {
+        "question": "How can I start my project?",
+        "answers": [
+          "**Ghost Production:** share your idea with us through a reference track. After a few days we will contact you with feedback on a hybrid track.",
+          "**Upload stems:** send your stems to info.vcntstudio@gmail.com using SwissTransfer, Dropbox or any cloud service. Please deliver your files in WAV format (24-bit, 44.1 kHz), leaving at least −6 dB of headroom."
+        ]
+      },
+      {
+        "question": "Is the Radio Edit included?",
+        "answers": [ "Yes, the Radio Edit is delivered in both MP3 and WAV." ]
+      },
+      {
+        "question": "What's the payment policy?",
+        "answers": [
+          "You can pay with PayPal or direct bank transfer.",
+          "There are two options: pay the full amount at the start, or pay 50% upfront and 50% on completion."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "text": "Choose who your message is for, so it reaches the right place.",
+    "departments": [ "Vincenzo Russo", "VCNT Studio" ]
+  }
+}
