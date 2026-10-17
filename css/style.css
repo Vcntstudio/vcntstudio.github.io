@@ -200,7 +200,11 @@ p { margin: 0; }
 .block { margin-top: var(--s-9); }
 
 .releases { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s-5); }
-.release { display: grid; gap: var(--s-3); text-decoration: none; }
+.release { display: grid; gap: var(--s-3); text-decoration: none; align-content: start; }
+button.release { all: unset; display: grid; gap: var(--s-3); align-content: start; cursor: pointer; text-align: left; }
+button.release:focus-visible { outline: 2px solid var(--amber); outline-offset: 4px; border-radius: 8px; }
+.release.is-playing .cover { box-shadow: 0 0 0 2px var(--amber); }
+.release.is-playing .listen { background: var(--amber); color: var(--ink); }
 .cover { position: relative; border-radius: 8px; overflow: hidden; aspect-ratio: 1; background: var(--panel); }
 .cover img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
 .cover .listen {
@@ -209,8 +213,8 @@ p { margin: 0; }
   font: 500 .75rem var(--f-mono); letter-spacing: .01em; padding: .4rem .7rem; border-radius: 99px;
   opacity: 0; transform: translateY(6px); transition: opacity .25s, transform .25s;
 }
-a.release:hover .cover img { transform: scale(1.05); }
-a.release:hover .listen, a.release:focus-visible .listen { opacity: 1; transform: none; }
+.release:is(a, button):hover .cover img { transform: scale(1.05); }
+.release:is(a, button):is(:hover, :focus-visible) .listen, .release.is-playing .listen { opacity: 1; transform: none; }
 .release h4 { margin: 0; font-weight: 600; font-size: 1rem; line-height: 1.3; }
 .release p { color: var(--muted); font-size: .9rem; }
 @media (hover: none) { .cover .listen { opacity: 1; transform: none; } }
@@ -232,6 +236,21 @@ a.release:hover .listen, a.release:focus-visible .listen { opacity: 1; transform
 .lb-close { top: calc(var(--s-4) + env(safe-area-inset-top, 0px)); right: var(--s-4); }
 .lb-prev { left: var(--s-4); top: 50%; translate: 0 -50%; }
 .lb-next { right: var(--s-4); top: 50%; translate: 0 -50%; }
+
+/* spotify player */
+.player {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 40;
+  background: rgba(14, 12, 18, .92); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  border-top: 1px solid var(--line);
+  padding-block: var(--s-3) calc(var(--s-3) + env(safe-area-inset-bottom, 0px));
+  animation: rise .3s ease;
+}
+@keyframes rise { from { transform: translateY(100%); } to { transform: none; } }
+.player-in { display: flex; align-items: center; gap: var(--s-3); }
+.player-frame { flex: 1; min-width: 0; }
+.player iframe { display: block; width: 100%; height: 80px; border: 0; border-radius: 12px; background: var(--panel); }
+.player-close { position: static; flex: none; }
+body:has(.player) .foot { padding-bottom: 8rem; }
 
 /* faq */
 .faq-wrap { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: var(--s-7); }

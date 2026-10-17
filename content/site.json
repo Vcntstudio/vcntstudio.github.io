@@ -24,6 +24,32 @@
     "bio": "**Vincenzo Russo** (b. 1995) is an Italian composer and sound artist. He graduated with highest honors (*110 con lode*) in both Applied Music (BBM) and Composition (MM) from the historic \"San Pietro a Majella\" Conservatory in Naples. Alongside his rigorous musical training, he holds a Bachelor's degree in Business Administration from the \"Parthenope\" University of Naples.\n\nHis creative output encompasses instrumental works for chamber ensembles and orchestra, electroacoustic music, and computer music research. In 2026, his piece *Neuro Translation Engine* was selected for the prestigious **ICMC** (International Computer Music Conference) in Hamburg and performed by Ensemble 404 at the Friedrich Ebert Halle.\n\nRusso's work has been recognized in several competitions: he won the \"Terenzio Gargiulo\" Composition Competition and was awarded 3rd Prize at the \"Fondazione F. M. Napolitano\" International Composition Competition. Deeply interested in multimedia and applied arts, he collaborated with RAI (Italian National Broadcasting) in Naples to score the short film *Sete*, released by the FDAM label. His music is regularly performed across Europe, including venues and academies in Estonia, Romania, Spain, and Germany.",
     "categories": [
       {
+        "title": "Chamber Music",
+        "works": [
+          {
+            "title": "False Memorie",
+            "year": "2026",
+            "highlight": "Performed at the composition workshop led by Alessandro Solbiati, Castello Caetani, Sermoneta (Italy)",
+            "scoring": "For piano and accordion",
+            "description": "",
+            "details": [
+              {
+                "label": "Selection",
+                "text": "Chosen to compose a new work for the 2027 season of the Festival Pontino, following the final concert of the course."
+              },
+              {
+                "label": "Performance",
+                "text": "Performed by Maria Grazia Bellocchio (piano) and Corrado Rojac (accordion) at the Castello Caetani, Sermoneta (13/07/2026)."
+              }
+            ],
+            "performances": [],
+            "image": "",
+            "youtube": "",
+            "video_image": "images/video-memorie.jpg"
+          }
+        ]
+      },
+      {
         "title": "Mixed Ensembles & Live Electronics",
         "works": [
           {
@@ -165,16 +191,16 @@
     "research_title": "Works in Progress & Current Research",
     "research": [
       {
-        "title": "Black Mirror",
+        "title": "Proxy",
         "status": "2026–2027 · In Development",
         "subtitle": "For Solo Instrument and Interactive Live Electronics",
         "text": "A new composition exploring the structural synchronization between real-time audio, dynamic lighting cues, and AI-generated visuals. The piece maps the performer's acoustic gestures directly onto the visual and electronic domains."
       },
       {
-        "title": "Research in Live Processing Notation",
+        "title": "Research on Extended Techniques in Max",
         "status": "Ongoing",
         "subtitle": "Current Theoretical & Practical Focus",
-        "text": "My current research addresses one of the core challenges in contemporary computer music: the notation and documentation of live processing. The work focuses on developing clear visual paradigms and formal notation systems to effectively integrate real-time digital processing within mixed music scores, bridging the gap between acoustic performance and complex electronic environments."
+        "text": "My current research explores extended techniques in contemporary music through an interactive environment developed in Max. The work approaches the subject from a compositional perspective, looking at how these techniques can be organized, related to one another and made accessible within the creative process."
       }
     ]
   },
@@ -201,42 +227,42 @@
         "artist": "Benny Benassi, Axis Zero",
         "role": "",
         "cover": "images/release-1.jpg",
-        "link": "https://open.spotify.com/"
+        "link": ""
       },
       {
-        "title": "Spotlight EP Vol. 1",
-        "artist": "Leftover Records",
+        "title": "Spotlight EP Vol. 3",
+        "artist": "Aeterna Records",
         "role": "",
         "cover": "images/release-2.jpg",
-        "link": "https://open.spotify.com/"
+        "link": ""
       },
       {
-        "title": "La Musik",
+        "title": "La Musa",
         "artist": "Mathieu Ruiz, Javi Torres, Notwins",
         "role": "",
         "cover": "images/release-3.jpg",
-        "link": "https://open.spotify.com/"
+        "link": ""
       },
       {
         "title": "I Have a Dream (Ecuador)",
-        "artist": "Masterm x Alexandra Stan",
+        "artist": "Masterm x Alexandra Stan feat. 24HRS",
         "role": "",
         "cover": "images/release-4.jpg",
-        "link": "https://open.spotify.com/"
+        "link": ""
       },
       {
         "title": "Morenita",
         "artist": "Overmuzik feat. Flo Rida",
         "role": "",
         "cover": "images/release-5.jpg",
-        "link": "https://open.spotify.com/"
+        "link": ""
       },
       {
         "title": "Sin Prisa",
         "artist": "Overmuzik feat. Pitbull & Trina",
         "role": "",
         "cover": "images/release-6.jpg",
-        "link": "https://open.spotify.com/"
+        "link": ""
       }
     ],
     "gallery": [

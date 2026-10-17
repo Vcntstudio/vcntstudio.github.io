@@ -161,10 +161,12 @@ function studio(d) {
         <h3 class="sub">${esc(s.releases_title)}</h3>
         <div class="releases">
           ${list(s.releases).map(r => {
+            const sp = spotifyPath(r.link);
             const inner = `
               <div class="cover"><img src="${esc(r.cover)}" alt="Cover of ${esc(r.title)}" loading="lazy" decoding="async">
-                ${r.link ? `<span class="listen">${playIcon} Listen</span>` : ""}</div>
+                ${r.link ? `<span class="listen">${playIcon} ${sp ? "Play" : "Listen"}</span>` : ""}</div>
               <div><h4>${esc(r.title)}</h4><p>${esc(r.artist)}${r.role ? ` · ${esc(r.role)}` : ""}</p></div>`;
+            if (sp) return `<button type="button" class="release" data-sp="${esc(sp)}" data-title="${esc(r.title)}" aria-label="Play ${esc(r.title)}">${inner}</button>`;
             return r.link
               ? `<a class="release" href="${esc(r.link)}" target="_blank" rel="noopener">${inner}</a>`
               : `<div class="release">${inner}</div>`;
@@ -235,6 +237,34 @@ function contact(d) {
 }
 
 /* ---------- behaviour ---------- */
+// Spotify link → "track/ID" (also album, playlist, episode). Anything else → ""
+function spotifyPath(url) {
+  const m = String(url || "").match(/open\.spotify\.com\/(?:intl-[a-z]+\/)?(track|album|playlist|episode)\/([A-Za-z0-9]+)/);
+  return m ? `${m[1]}/${m[2]}` : "";
+}
+
+// Player fisso in basso: si apre cliccando una copertina con link Spotify
+function wirePlayer() {
+  const btns = [...app.querySelectorAll(".release[data-sp]")];
+  if (!btns.length) return;
+  let bar = null;
+  const close = () => { bar?.remove(); bar = null; btns.forEach(b => b.classList.remove("is-playing")); };
+  btns.forEach(b => b.addEventListener("click", () => {
+    btns.forEach(x => x.classList.toggle("is-playing", x === b));
+    if (!bar) {
+      bar = document.createElement("div");
+      bar.className = "player";
+      bar.innerHTML = `<div class="wrap player-in"><div class="player-frame"></div>
+        <button type="button" class="lb-btn player-close" aria-label="Close player">×</button></div>`;
+      bar.querySelector(".player-close").onclick = close;
+      document.body.appendChild(bar);
+    }
+    bar.querySelector(".player-frame").innerHTML =
+      `<iframe title="Spotify — ${b.dataset.title}" src="https://open.spotify.com/embed/${b.dataset.sp}?utm_source=generator&theme=0&autoplay=1"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+  }));
+}
+
 function wireVideos() {
   app.querySelectorAll(".video[data-yt] button").forEach(btn => {
     btn.addEventListener("click", () => {
@@ -348,6 +378,7 @@ async function boot() {
     document.getElementById("foot-right").textContent = d.site?.footer || "";
     wireVideos();
     wireGallery(list(d.studio?.gallery).map(imgSrc).filter(Boolean));
+    wirePlayer();
     wireNav();
     wireForm();
     if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
